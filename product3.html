@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>All Products - VAS</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="kosnicka">
+      <div class="close">&times;</div>
+      <div class="text-kosnicka">
+        <h3 class="kos-header">Кошничка</h3>
+
+        <h2 class="prazna">Кошничката е празна</h2>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Реден број</th>
+              <th>Име</th>
+              <th>Колор</th>
+              <th>Цена</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Вкупно:</th>
+              <th></th>
+              <th></th>
+              <th></th>
+            </tr>
+          </tbody>
+        </table>
+        <div class="kosnica-buttons">
+          <a href="#" class="btn btn1 plati">Плати</a>
+          <a href="#" class="btn btn1 otkazi">Откажи</a>
+        </div>
+      </div>
+    </div>
+    <div class="header">
+      <div class="container">
+        <nav class="nav">
+          <div class="logo">
+            <img src="images/logo.png" width="125px" />
+          </div>
+          <ul id="MenItems">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Account</a></li>
+            <li>
+              <a class="cart" href=""
+                ><img src="images/cart.png" width="30px" height="30px"
+              /></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- <div>
+              <img src="images/menu.png" class="menu-icon" onclick="menutoggle()" />
+            </div> -->
+    </div>
+
+    <div class="product">
+      <div class="col-1">
+        <img src="images/product3.png" />
+        <h4 class="name-article">Nightsky Case</h4>
+        <div class="rating">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+        </div>
+        <p>400 Ден</p>
+      </div>
+      <div class="col-2">
+        <div class="text">
+          <p>
+            Опис: Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Recusandae pariatur repellat quasi quibusdam amet consequuntur
+            quaerat, quis sequi doloremque, cupiditate sit, officiis impedit
+            vero minus rerum corporis illo veniam. Temporibus.
+          </p>
+          <div class="colors">
+            <p>Одбери Боја:</p>
+            <div class="color gold" data-color="златна"></div>
+            <div class="color silver" data-color="сребрена"></div>
+            <div class="color red" data-color="црвена"></div>
+          </div>
+          <div class="chosen-color"></div>
+          <p class="price">Цена: <span>400</span> Ден</p>
+          <a href="product1.html" class="btn btn1 kupi">Купи</a>
+        </div>
+      </div>
+    </div>
+    <script></script>
+    <script src="script.js"></script>
+    <script src="scriptColors.js"></script>
+  </body>
+</html>
